@@ -11,7 +11,7 @@ Wazuh is perfect for organization who are starting to shift left on their securi
 
 - System
 
-![Alt Text](../assets/sysem_req.png)
+![Alt Text](../assets/Sysem_req.png)
 
 ### The Goal
 The goal is to setup Wazuh and install agents on each of the endpoints.
