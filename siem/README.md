@@ -32,9 +32,9 @@ INFO: You can access the web interface https://<wazuh-dashboard-ip>
     Password: <ADMIN_PASSWORD>
 INFO: Installation finished.
 ```
-4. Make sure to open the necessary ports that wazuh is using. ![Wazuh Agent Enrollment](https://documentation.wazuh.com/current/user-manual/agent/agent-enrollment/index.html) 
+4. Make sure to open the necessary ports that wazuh is using. https://documentation.wazuh.com/current/user-manual/agent/agent-enrollment/index.html
 5. Open your web browser and access you wazuh server via hostname, domain or IP Address. <!-- Note the in production you'll need to map out a domain for your wazuh server -->
-6. Login to your Wazuh Server and create a new agent. Follow the steps here in enrolling an agent ![Wazuh Agent Enrollment](https://documentation.wazuh.com/current/user-manual/agent/agent-enrollment/index.html) 
+6. Login to your Wazuh Server and create a new agent. Follow the steps here in enrolling an agent https://documentation.wazuh.com/current/user-manual/agent/agent-enrollment/index.html
    <!-- There are options available for different types of device. Select the appropriate option for the machine where you want to deploy the Wazuh Agent -->
    <!-- In this example we will be using Windows Device -->
 7. Follow the instructions indicated in enrolling an Agent and copy the powershell command that is generated to instal the wazuh agent.
