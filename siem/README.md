@@ -37,16 +37,16 @@ INFO: Installation finished.
 6. Login to your Wazuh Server and create a new agent. Follow the steps here in enrolling an agent ![Wazuh Agent Enrollment](https://documentation.wazuh.com/current/user-manual/agent/agent-enrollment/index.html) 
    <!-- There are options available for different types of device. Select the appropriate option for the machine where you want to deploy the Wazuh Agent -->
    <!-- In this example we will be using Windows Device -->
-6.Follow the instructions indicated in enrolling an Agent and copy the powershell command that is generated to instal the wazuh agent.
-7. Go to your Windows Device and open as Administrator a powershell terminal.
-8. Paste the copied code from Wazuh Dashboard Agent enrollment. ( **Note**: If you want to deploy this on a large scale you can use the Windows Group Policy in deploying it)
-9. Now that you have installed the Wazuh Agent, you now need to active the Wazuh Service ``` NET START WazuhSvc ```
-10. Wait for 1 - 3 minutes and refresh your Wazuh Dashboard. The Agent should now be reporting to the Wazuh Server. 
+7. Follow the instructions indicated in enrolling an Agent and copy the powershell command that is generated to instal the wazuh agent.
+8. Go to your Windows Device and open as Administrator a powershell terminal.
+9. Paste the copied code from Wazuh Dashboard Agent enrollment. ( **Note**: If you want to deploy this on a large scale you can use the Windows Group Policy in deploying it)
+10. Now that you have installed the Wazuh Agent, you now need to active the Wazuh Service ``` NET START WazuhSvc ```
+11. Wait for 1 - 3 minutes and refresh your Wazuh Dashboard. The Agent should now be reporting to the Wazuh Server. 
 <!-- If the agent is not reporting consider opening the ports needed to be opened for the wazuh to receive the reports -->
 ![Alt Text](../assets/wazuh_ports.png)
 
-11. Now you can use the Wazuh SIEM/XDR for Security Events and Compliance Monitoring
-12. ![Alt Text](../assets/security-events1.png)
+12. Now you can use the Wazuh SIEM/XDR for Security Events and Compliance Monitoring
+ ![Alt Text](../assets/security-events1.png)
 
 
 
