@@ -4,6 +4,9 @@
 Using one of the famous opensource SIEM/XDR solution called Wazuh we can now take care of SIEM and XDR at the same time.
 Wazuh is perfect for organization who are starting to shift left on their security without spending a large cost to implement SIEM and XDR.
 
+# Simple SIEM Architecture
+![Alt Text](../assets/hardware_req.png)
+
 ### Requirements
 - Hardware
   
