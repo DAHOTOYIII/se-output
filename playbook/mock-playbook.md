@@ -1,5 +1,5 @@
 #Mock Security Automation Playbook
 
 ## Below is an Flow Diagram of a mock Reported Phishing Email Security Automation
-![Playbook](../assets/sampleplaybook.png)
-![Playbook](../assets/arch.drawio.png)
+![Playbook](../assets/playbookflow.png)
+
