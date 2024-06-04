@@ -14,5 +14,5 @@ the words will be retrieved from and will be used in the script. I only limit th
 The output file will be located on the root folder and is named ``` output.txt ```
 
 ## How to test the script?
-1. Create text files and paste the word contents and save it. You may duplicate or create as many file as you want.
+1. Create text files and paste the word contents and save it inside the ``` src/cloudword/inputs ``` folder. You may duplicate or create as many file as you want.
 2. Run this command ``` python .\src\cloudword ``` or ``` python.exe .\src\cloudword ``` | make sure you are in the root folder of the repo.
