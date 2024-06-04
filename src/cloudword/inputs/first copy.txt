@@ -1,0 +1,3 @@
+In this section you will learn how to provision Wazuh for personal use using Virtual Box and Linux Ubuntu 22.04 virtual machine.
+
+In this section you will also learn how to provision Wazuh in AWS using EC2 Intances. Note: That although this setup works it is not production ready setup. The only goal of this documentation is to help cyber security professional who aims to understand and learn the basics of provisioning Wazuh.
