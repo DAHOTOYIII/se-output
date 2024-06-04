@@ -45,6 +45,9 @@ INFO: Installation finished.
 <!-- If the agent is not reporting consider opening the ports needed to be opened for the wazuh to receive the reports -->
 ![Alt Text](../assets/wazuh_ports.png)
 
+11. Now you can use the Wazuh SIEM/XDR for Security Events and Compliance Monitoring
+12. ![Alt Text](../assets/security-events1.png)
+
 
 
 
