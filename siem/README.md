@@ -6,7 +6,7 @@ Wazuh is perfect for organization who are starting to shift left on their securi
 
 ### Requirements
 - Hardware
-![Alt Text](./assets/hardware_req.png)
+![Alt Text](../assets/hardware_req.png)
 
 ### The Goal
 The goal is to setup Wazuh and install agents on each of the endpoints.
