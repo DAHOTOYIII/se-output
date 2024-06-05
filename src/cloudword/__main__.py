@@ -10,7 +10,7 @@ def convert_to_table(table_obj):
     table = tabulate(table_obj, headers="keys")
     with open("output.txt", "w") as f:
         f.write(table)
-    pass
+    return table
 
 def rank_words(word_list):
     rank_words =[]
@@ -38,7 +38,7 @@ def get_words_from_file(file_path):
         return words
 
 
-def main(folder_path, num_top_words=100):
+def main(folder_path, num_top_words : int):
     word_counter = Counter()
     # Iterate through each file in the folder
     for filename in os.listdir(folder_path):
@@ -56,4 +56,5 @@ def main(folder_path, num_top_words=100):
 
 
 if __name__=="__main__":
-    main(ASSETS_FOLDER)
+    top_words = 40
+    main(ASSETS_FOLDER, top_words)
