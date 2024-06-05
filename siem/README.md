@@ -23,7 +23,7 @@ The goal is to setup Wazuh and install agents on each of the endpoints.
 1. Create an ubuntu server based on the Requirements above.
 2. SSH to your server and run this command.
 ``` curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh && sudo bash ./wazuh-install.sh -a ```
-3. After install Wazuh the details below will appear to your Terminal. Take note of the username and password.
+3. After installing Wazuh the details below will appear to your Terminal. Take note of the username and password.
 
 ```
 INFO: --- Summary ---
@@ -37,7 +37,7 @@ INFO: Installation finished.
 6. Login to your Wazuh Server and create a new agent. Follow the steps here in enrolling an agent https://documentation.wazuh.com/current/user-manual/agent/agent-enrollment/index.html
    <!-- There are options available for different types of device. Select the appropriate option for the machine where you want to deploy the Wazuh Agent -->
    <!-- In this example we will be using Windows Device -->
-7. Follow the instructions indicated in enrolling an Agent and copy the powershell command that is generated to instal the wazuh agent.
+7. Follow the instructions indicated in enrolling an Agent and copy the powershell command that is generated to instal the wazuh agent. See this document for detailed installation instruction [Click here](Installing-Wazuh-Agent.docx)
 8. Go to your Windows Device and open as Administrator a powershell terminal.
 9. Paste the copied code from Wazuh Dashboard Agent enrollment. ( **Note**: If you want to deploy this on a large scale you can use the Windows Group Policy in deploying it)
 10. Now that you have installed the Wazuh Agent, you now need to active the Wazuh Service ``` NET START WazuhSvc ```
