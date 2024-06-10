@@ -1,8 +1,7 @@
 # Security Ingestion
 
 ## Summary
-Using one of the famous opensource SIEM/XDR solution called Wazuh we can now take care of SIEM and XDR at the same time.
-Wazuh is perfect for organization who are starting to shift left on their security without spending a large cost to implement SIEM and XDR.
+Using one of the famous open-source SIEM/XDR solutions called Wazuh, we can now take care of SIEM and XDR at the same time. Wazuh is perfect for organizations that are starting to shift left on their security without spending a large amount to implement SIEM and XDR.
 
 # Simple SIEM Architecture
 ![Alt Text](../assets/wazuh_arch.png)
@@ -47,9 +46,3 @@ INFO: Installation finished.
 
 12. Now you can use the Wazuh SIEM/XDR for Security Events and Compliance Monitoring
  ![Alt Text](../assets/security-events1.png)
-
-
-
-
-
-
