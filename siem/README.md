@@ -49,7 +49,7 @@ INFO: Installation finished.
 
 ![Alt Text](../assets/wazuh_ports.png)
 
-12. Now you can use the Wazuh SIEM/XDR for Security Events and Compliance Monitoring
+12. You can now use the Wazuh SIEM/XDR for Security Events and Compliance Monitoring
 
  ![Alt Text](../assets/security-events1.png)
 
