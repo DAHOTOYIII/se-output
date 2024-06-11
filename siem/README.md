@@ -52,3 +52,6 @@ INFO: Installation finished.
 12. Now you can use the Wazuh SIEM/XDR for Security Events and Compliance Monitoring
 
  ![Alt Text](../assets/security-events1.png)
+
+
+ Follow this documentation for installing Wazuh Agent to the desired endpoints: [Wazuh Agent Setup Guide](Installing-Wazuh-Agent.docx)
