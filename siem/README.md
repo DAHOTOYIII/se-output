@@ -1,7 +1,11 @@
 # Security Ingestion
 
 ## Summary
+
 Using one of the famous open-source SIEM/XDR solutions called Wazuh, we can now take care of SIEM and XDR at the same time. Wazuh is perfect for organizations that are starting to shift left on their security without spending a large amount to implement SIEM and XDR.
+
+This mark down file contains guide on setting up the Wazuh Server.
+The installation of the Wazuh Agent which will be install to the user endpoint is located [a relative link](Installing-Wazuh-Agent.docx)
 
 # Simple SIEM Architecture
 ![Alt Text](../assets/wazuh_arch.png)
@@ -42,7 +46,9 @@ INFO: Installation finished.
 10. Now that you have installed the Wazuh Agent, you now need to active the Wazuh Service ``` NET START WazuhSvc ```
 11. Wait for 1 - 3 minutes and refresh your Wazuh Dashboard. The Agent should now be reporting to the Wazuh Server. 
 <!-- If the agent is not reporting consider opening the ports needed to be opened for the wazuh to receive the reports -->
+
 ![Alt Text](../assets/wazuh_ports.png)
 
 12. Now you can use the Wazuh SIEM/XDR for Security Events and Compliance Monitoring
+
  ![Alt Text](../assets/security-events1.png)

@@ -1,7 +1,7 @@
 # se-output
 # Word Cloud Challenge
 ## Setup Requirement
-- Python Installation
+- Python Installation (Python >= 3.12.0)
 
 ## Setup the Environment
 1. Run this command ``` python -m venv venv ``` or ``` py -m venv venv ```. This will create a virtual environment for you..

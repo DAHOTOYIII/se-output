@@ -50,13 +50,13 @@ def main(folder_path, num_top_words: int):
             words = get_words_from_file(file_path)
             word_counter.update(words)
 
-    word_counts = [{'word': word, 'count': count} for word, count in word_counter.most_common(num_top_words)]
+    word_counts = [{'word': word, 'count': count} for word, count in word_counter.most_common(num_top_words)] # List comprehension to add words to list with counts
     ranked_word = rank_words(word_counts)
     table = convert_to_table(ranked_word)
-    print('Script ran successfully check the ./output.txt file for the result')
+    print('Done: Please see ./output.txt  for the result')
     return table
 
 
 if __name__ == "__main__":
-    top_words = 40
+    top_words = 10
     main(ASSETS_FOLDER, top_words)
