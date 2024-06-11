@@ -54,4 +54,4 @@ INFO: Installation finished.
  ![Alt Text](../assets/security-events1.png)
 
 
- Follow this documentation for installing Wazuh Agent to the desired endpoints: [Wazuh Agent Setup Guide](Installing-Wazuh-Agent.docx)
+ Follow this documentation for the guide in installing Wazuh Agent to the desired endpoints: [Wazuh Agent Setup Guide](Installing-Wazuh-Agent.docx)
