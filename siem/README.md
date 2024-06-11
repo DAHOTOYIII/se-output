@@ -5,7 +5,7 @@
 Using one of the famous open-source SIEM/XDR solutions called Wazuh, we can now take care of SIEM and XDR at the same time. Wazuh is perfect for organizations that are starting to shift left on their security without spending a large amount to implement SIEM and XDR.
 
 This mark down file contains guide on setting up the Wazuh Server.
-The installation of the Wazuh Agent which will be install to the user endpoint is located [a relative link](Installing-Wazuh-Agent.docx)
+The installation of the Wazuh Agent which will be install to the user endpoint is located [a Wazuh Agent Setup Guide](Installing-Wazuh-Agent.docx)
 
 # Simple SIEM Architecture
 ![Alt Text](../assets/wazuh_arch.png)
