@@ -23,7 +23,7 @@ The detailed installation of the Wazuh Agent described here: [Wazuh Agent Setup 
 The goal is to setup Wazuh and install agents on each of the endpoints.
 
 ### Wazuh Installation:
-1. Create an ubuntu server based on the requirements above.
+1. Create an ubuntu server based on the requirements above. (run: ```sudo apt update``` before installing anything)
 2. SSH to your server and run this command.
 ``` curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh && sudo bash ./wazuh-install.sh -a ```
 3. After installing Wazuh the details below will appear to your Terminal. Take note of the username and password.
